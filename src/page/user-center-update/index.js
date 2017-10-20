@@ -2,7 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-09-25 19:50:27
 * @Last Modified by:   Administrator
+<<<<<<< HEAD
+* @Last Modified time: 2017-10-02 13:59:45
+=======
 * @Last Modified time: 2017-09-26 22:28:53
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 */
 
 "use strict";
@@ -13,6 +17,10 @@ require('./index.css');
 require('../common/nav/index.js');
 require('../common/footer/index.js');
 require('../../util/mm.js');
+<<<<<<< HEAD
+require('../common/crumbs/index.js');
+=======
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 var _header=require('../common/header/index.js');
 var _navSide=require('../common/nav-side/index.js');
 var _mm=require('../../util/mm.js');

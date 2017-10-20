@@ -2,7 +2,11 @@
 * @Author: Juana
 * @Date:   2017-08-17 08:31:05
 * @Last Modified by:   Administrator
+<<<<<<< HEAD
+* @Last Modified time: 2017-10-08 15:45:11
+=======
 * @Last Modified time: 2017-09-25 20:15:03
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 */
 
 'use strict';
@@ -14,6 +18,10 @@ var conf = {
 };
 var _mm={
 	request: function(param){
+<<<<<<< HEAD
+		var _this=this;
+=======
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 		$.ajax({
 			type	: param.method || 'get',
 			url		: param.url 	|| '',
@@ -33,7 +41,11 @@ var _mm={
 					typeof param.error === 'function' && param.error(res.msg);
 				}
 				else{
+<<<<<<< HEAD
+					console.log("param's url :"+param.url);
+=======
 					console.log("the status is "+res.status);
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 				}
 			},
 			error   : function(err){
@@ -48,7 +60,11 @@ var _mm={
 	},
 	//get url's certain value
 	getUrlParam : function(name){
+<<<<<<< HEAD
+		var reg = new RegExp('(^|&?)'+name+'=([^&]*)(&|$)');
+=======
 		var reg = new RegExp('(^|&)'+name+'=([^&]*)(&|$)');
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 		var result = window.location.search.substr(1).match(reg);
 		return result ? decodeURIComponent(result[2]) : null;
 	},

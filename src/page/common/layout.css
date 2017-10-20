@@ -2,7 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-08-20 19:40:23
 * @Last Modified by:   Administrator
+<<<<<<< HEAD
+* @Last Modified time: 2017-10-08 16:52:08
+=======
 * @Last Modified time: 2017-09-25 21:15:41
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 */
 
 *{
@@ -90,4 +94,10 @@ label,input[type='checkbox']{
 
 .clear{
 	clear: both;
+<<<<<<< HEAD
+}
+a:hover{
+	cursor: pointer;
+=======
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 }

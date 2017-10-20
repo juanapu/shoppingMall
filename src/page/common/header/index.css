@@ -2,7 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-09-03 09:03:10
 * @Last Modified by:   Administrator
+<<<<<<< HEAD
+* @Last Modified time: 2017-10-02 13:11:51
+=======
 * @Last Modified time: 2017-09-06 08:52:00
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 */
 .header div.search-con{
     position: absolute;
@@ -14,6 +18,14 @@
 	line-height: 100px;
 }
 
+<<<<<<< HEAD
+.header .inner {
+    width: 700px;
+    margin: auto;
+}
+
+=======
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 .header .logo{
 	display: inline;
 	color: red;

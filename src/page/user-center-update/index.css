@@ -2,7 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-09-25 19:50:52
 * @Last Modified by:   Administrator
+<<<<<<< HEAD
+* @Last Modified time: 2017-10-02 14:01:00
+=======
 * @Last Modified time: 2017-09-26 21:54:01
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 */
 
 div.load-cont{
@@ -11,7 +15,11 @@ div.load-cont{
 	display: block;
 	background-color: rgb(233,241,249);
 }
+<<<<<<< HEAD
+div.w.cont,div.load-cont{
+=======
 div.w,div.load-cont{
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 	height: 1000px;
 }
 div.w .nav-side{

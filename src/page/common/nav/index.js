@@ -2,7 +2,11 @@
 * @Author: Administrator
 * @Date:   2017-08-28 08:51:29
 * @Last Modified by:   Administrator
+<<<<<<< HEAD
+* @Last Modified time: 2017-10-08 16:50:47
+=======
 * @Last Modified time: 2017-09-23 09:56:16
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 */
 
 "use strict";
@@ -16,7 +20,10 @@ var nav={
 		this.bindEvent();
 		this.loadUserInfo();
 		this.loadCartCount();
+<<<<<<< HEAD
+=======
 		return this 
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 	},
 	bindEvent : function(){
 		var _this=this;
@@ -38,7 +45,14 @@ var nav={
 				_mm.errorTips("errMsg");
 			});
 		});
+<<<<<<< HEAD
+		//go cart
+		$('.js-gocart').click(function(){
+			window.location.href='./cart.html';
+		});
+=======
 
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 	},
 	loadUserInfo : function(){
 		_user.checkLogin(function(res){
@@ -59,6 +73,13 @@ var nav={
 	}
 };
 
+<<<<<<< HEAD
+$(function(){
+	nav.init();
+});
+module.exports = nav;
+=======
 module.exports = nav.init();
+>>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 
 

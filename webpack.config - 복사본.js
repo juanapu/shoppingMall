@@ -28,30 +28,17 @@ var getHtmlLayoutConfig = function(name){
 
 var exportContent ={
 	entry:{
-		commons: "./src/page/common/index.js",
+		commons: "./src/page/common/commons.js",
 		index: "./src/page/index/index.js",
-		"user-login"   :    "./src/page/user-login/index.js",
-		"user-register": "./src/page/user-register/index.js",
-		test: "./src/page/test/index.js",
-		"user-pass-reset" : "./src/page/user-pass-reset/index.js",
-		"user-center"     : "./src/page/user-center/index.js",
-<<<<<<< HEAD
-		"user-center-update": "./src/page/user-center-update/index.js",
-		"list"				: "./src/page/list/index.js",
-		"detail"			: "./src/page/detail/index.js",
-		"result"			: "./src/page/result/index.js",
-		"cart"			: "./src/page/cart/index.js",
-		"confirm"			: "./src/page/confirm/index.js"
-=======
-		"user-center-update": "./src/page/user-center-update/index.js"
->>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
+		"user-login": "./src/page/user-login/user-login.js",
+		test: "./src/page/test/test.js",	
 	},
 	output: {
 		path: __dirname+'/dist',
 		publicPath: '/dist',
-		filename: './src/page/[name].js'
+		filename: './src/page/[name]/[name].js'
 	}, 
-	module: {  
+	module: {
 	    rules: [
 	      {
 	        test: /\.css$/,
@@ -86,18 +73,6 @@ var exportContent ={
 		new htmlWebpackPlugin(getHtmlConfig('index')),
 		new htmlWebpackPlugin(getHtmlConfig('test')),
 		new htmlWebpackPlugin(getHtmlConfig('user-login')),
-		new htmlWebpackPlugin(getHtmlConfig('user-register')),
-		new htmlWebpackPlugin(getHtmlConfig('user-pass-reset')),
-		new htmlWebpackPlugin(getHtmlConfig('user-center')),
-		new htmlWebpackPlugin(getHtmlConfig('user-center-update')),
-<<<<<<< HEAD
-		new htmlWebpackPlugin(getHtmlConfig('list')),
-		new htmlWebpackPlugin(getHtmlConfig('detail')),
-		new htmlWebpackPlugin(getHtmlConfig('result')),
-		new htmlWebpackPlugin(getHtmlConfig('cart')),
-		new htmlWebpackPlugin(getHtmlConfig('confirm')),
-=======
->>>>>>> e27f21fd25d8594f11fc989e3425af3418ee285e
 		new webpack.optimize.CommonsChunkPlugin({
 			name: 'commons',
 			filename: 'page/commons/commons.js'
